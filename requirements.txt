@@ -1,7 +1,7 @@
 # boto3 is pre-installed in all Lambda Python runtimes.
-# List it here only so local development environments match Lambda.
+# Listed here only so local dev environments stay in sync with Lambda.
 boto3>=1.34.0
 botocore>=1.34.0
 
-# Testing (not included in Lambda package)
+# Testing — not included in the Lambda deployment ZIP
 pytest>=8.0.0
