@@ -400,7 +400,7 @@ aws sns subscribe \
 
 | Setting | Recommended Value | Notes |
 |---------|------------------|-------|
-| Runtime | `python3.14` | Latest managed Python runtime |
+| Runtime | `python3.14` | Latest managed Python runtime till date |
 | Handler | `lambda_function.lambda_handler` | Do not change |
 | Timeout | `60 seconds` | Increase to 120s for large multi-page PDFs |
 | Memory | `256 MB` | Increase to 512 MB for very large documents |
