@@ -187,7 +187,6 @@ serverless-invoice-processor/
 ├── requirements.txt      # Python dependencies
 ├── README.md             # This file
 └── samples/              # Synthetic test files
-    ├── README.md         # Test instructions and expected results
     ├── valid/            # Should pass both gates → DynamoDB
     └── invalid/          # Should fail → invoices-to-be-reviewed/
 ```
@@ -215,7 +214,7 @@ git clone https://github.com/your-org/serverless-invoice-processor.git
 cd serverless-invoice-processor
 
 # Virtual environment
-python3.14 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate        # macOS / Linux
 # .venv\Scripts\activate         # Windows
 
